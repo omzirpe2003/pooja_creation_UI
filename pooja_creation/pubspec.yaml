@@ -1,0 +1,48 @@
+name: pooja_creation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  carousel_slider: ^5.1.2
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_screenutil: ^5.9.3
+  get: ^4.7.3
+  get_storage: ^2.1.1
+  google_fonts: ^6.3.2
+  image_picker: ^1.2.1
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/app_logo.jpeg" # Replace with your actual logo path
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/Category/Flower/
+    - assets/Category/Fabric/
+    - assets/Category/Halva/
+    - assets/Category/Invesibal/
+    - assets/Category/MSeal/
+    - assets/Category/Shell/
+    - assets/Category/SilkThread/
+    - assets/Category/Sutitli/
+    - assets/logo/
